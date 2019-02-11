@@ -28,7 +28,7 @@ btnElement.onclick = async function () {
   const n = parseInt(text1);           // convert as needed
   const h = await repeat(n, text2)
   // use backtics for string interpolation
-  ansElement.innerHTML = `Called with n=${n} and string=${text2}: ${HTMLBRElement}`;
+  ansElement.innerHTML = `Called with n=${n} and string=${text2}: ${h}`;
 }
 
 
