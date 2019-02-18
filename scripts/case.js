@@ -17,9 +17,11 @@ inputElement2.ondblclick = () => {
   alert("thanks for double clicking input 2!");
 };
 
+/* 
 inputElement2.addEventListener("mouseover", () => {
   alert("thanks for mousing over input 2!");
 });
+*/
 
 
 btnElement.onclick = async function () {
